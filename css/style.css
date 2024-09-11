@@ -10,14 +10,32 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .menu{
     display: flex;
     align-items: center;
     list-style: none;
+    
 }
 .block-left{
     display: flex;
     align-items: center;
+    gap: 45px;
     
+
+    
+ul{
+    gap: 45px;
+    
+    
+}
+}
+.block-right{
+    display: flex;
+    align-items: center;
+    
+ul{
+    gap: 45px;
+}
 }
