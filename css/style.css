@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    float: right;
+    text-align: left;
+    width: 200px;
+}
+.menu :left{
+     display: flex;
+     list-style: none;
+     justify-content: flex-start;
+     text-decoration: none;
+}
+.menu :right{
+ display: flex;
+ list-style: none;
+ text-decoration: none;
+}
