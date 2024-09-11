@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /* region header*/
 
 header{
@@ -39,11 +40,13 @@ a{
 .block-right{
     display: flex;
     align-items: center;
+    
 .click{
     background-color: rgba(0, 8, 255, 0.759);
 a{
     color: white;
-    display: inline-block;
+    display:inline-block
+    
     
 }
 }
