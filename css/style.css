@@ -1,21 +1,22 @@
+ /* region comman */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.logo{
-    float: right;
-    text-align: left;
-    width: 200px;
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-.menu :left{
-     display: flex;
-     list-style: none;
-     justify-content: flex-start;
-     text-decoration: none;
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
 }
-.menu :right{
- display: flex;
- list-style: none;
- text-decoration: none;
+.block-left{
+    display: flex;
+    align-items: center;
 }
