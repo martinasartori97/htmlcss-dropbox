@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* region header*/
 
 header{
     display: flex;
@@ -18,26 +19,40 @@ header{
     list-style: none;
     
 }
+
+/* menu left*/
+
 .block-left{
     display: flex;
     align-items: center;
     gap: 45px;
-    color: black;
-    
-
     
 ul{
     gap: 45px;
-    
-    
+a{
+    color: black;
 }
 }
+
+/* menu right*/
+
 .block-right{
     display: flex;
     align-items: center;
-    color: black;
+.click{
+    background-color: rgba(0, 8, 255, 0.759);
+a{
+    color: white;
+    display: inline-block;
+    
+}
+}
+    
     
 ul{
     gap: 45px;
+a{
+    color: black;
+}
 }
 }
