@@ -76,21 +76,34 @@
  /* end-header*/
 
  /*main*/
-.container{
-    width: 100%;
-    margin: auto;
+ section {
+     background-color: rgba(0, 157, 255, 0.441);
+ }
 
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -1rem;
+ .container {
+     width: 60%;
+     margin: auto;
 
-}
-.col-4{
+ }
+
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0 -1rem;
+
+ }
+
+ .col-4 {
+     width: calc((100% / 12) * 4);
     
 
-}
-.col-8{
 
-}
+ }
+
+ .col-8 {
+     width: calc((100% / 12) * 8);
+ }
+ img{
+    max-width: 100%;
+    
+ }
