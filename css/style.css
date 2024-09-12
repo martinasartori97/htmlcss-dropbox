@@ -82,5 +82,15 @@
 
 }
 .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+
+}
+.col-4{
+    
+
+}
+.col-8{
 
 }
