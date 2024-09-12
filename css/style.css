@@ -12,6 +12,8 @@
      display: flex;
      align-items: center;
      justify-content: space-between;
+     padding: 20px;
+     
 
  }
 
@@ -28,6 +30,8 @@
      display: flex;
      align-items: center;
      gap: 45px;
+    
+
 
      ul {
          gap: 45px;
@@ -36,31 +40,32 @@
              color: rgba(128, 128, 128, 0.738);
          }
      }
-    
 
-     }
 
-     /* menu right*/
-  
-     .block-right{
+ }
 
-         display: flex;
-         align-items: center;
+ /* menu right*/
+
+ .block-right {
+
+     display: flex;
+     align-items: center;
+     gap: 45px;
+
+
+     ul {
          gap: 45px;
 
-
-         ul {
-             gap: 45px;
-
-             a {
-                 color: rgba(128, 128, 128, 0.738);
-             }
+         a {
+             color: rgba(128, 128, 128, 0.738);
 
          }
+     }
 
-         span {
-             color: white;
-             border-radius: 10px;
-         }
+     span {
+         background-color: rgba(0, 128, 255, 0.711);
+         color: white;
+         border-radius: 10px;
+     }
 
-        }
+ }
