@@ -31,7 +31,7 @@ header{
 ul{
     gap: 45px;
 a{
-    color: black;
+    color:rgba(128, 128, 128, 0.738);
 }
 }
 
@@ -40,22 +40,15 @@ a{
 .block-right{
     display: flex;
     align-items: center;
+    gap: 45px;
     
-.click{
-    background-color: rgba(0, 8, 255, 0.759);
-a{
-    color: white;
-    display:inline-block
-    
-    
-}
-}
-    
-    
+
 ul{
     gap: 45px;
-a{
-    color: black;
+a, .click{ 
+    color:rgba(128, 128, 128, 0.738);
+
+} 
 }
-}
-}
+    
+    
