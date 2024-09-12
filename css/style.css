@@ -13,7 +13,7 @@
      align-items: center;
      justify-content: space-between;
      padding: 20px;
-     
+
 
 
  }
@@ -21,7 +21,6 @@
  .menu {
      display: flex;
      align-items: center;
-     text-decoration: none;
      list-style: none;
 
  }
@@ -40,6 +39,7 @@
 
          a {
              color: rgba(128, 128, 128, 0.738);
+             text-decoration: none;
          }
      }
 
@@ -60,6 +60,7 @@
 
          a {
              color: rgba(128, 128, 128, 0.738);
+             text-decoration: none;
 
          }
      }
