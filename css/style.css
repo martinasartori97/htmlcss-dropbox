@@ -84,6 +84,7 @@
      width: 60%;
      margin: auto;
 
+
  }
 
  .row {
@@ -93,9 +94,13 @@
 
  }
 
+ h1 {
+     font-size: 50px;
+ }
+
  .col-4 {
      width: calc((100% / 12) * 4);
-    
+
 
 
  }
@@ -103,7 +108,23 @@
  .col-8 {
      width: calc((100% / 12) * 8);
  }
- img{
-    max-width: 100%;
-    
+
+ img {
+     max-width: 100%;
+
+ }
+
+ .click {
+     border-radius: 150px;
+     padding: 10px;
+     background-color: rgba(0, 128, 255, 0.711);
+     border-color: rgba(0, 128, 255, 0.711);
+     ;
+
+ }
+
+ a {
+     color: white;
+     text-decoration: none;
+
  }
