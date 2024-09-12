@@ -85,21 +85,31 @@
      margin: auto;
 
 
+
  }
 
  .row {
      display: flex;
      flex-wrap: wrap;
      margin: 0 -1rem;
+     padding: 15px;
 
  }
 
  h1 {
      font-size: 50px;
+
  }
 
  .col-4 {
      width: calc((100% / 12) * 4);
+     margin: bottom 20px;
+
+     p {
+         margin-bottom: 20px;
+     }
+
+
 
 
 
@@ -119,6 +129,7 @@
      padding: 10px;
      background-color: rgba(0, 128, 255, 0.711);
      border-color: rgba(0, 128, 255, 0.711);
+     margin-bottom: 20px;
      ;
 
  }
@@ -126,5 +137,14 @@
  a {
      color: white;
      text-decoration: none;
+     margin: auto;
 
+ }
+
+ .decline {
+     margin-bottom: auto;
+ }
+
+ .i {
+     margin-bottom: 20px;
  }
