@@ -1,54 +1,60 @@
  /* region comman */
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-/* region header*/
+ /* region header*/
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-.menu{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    
-}
+ header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
 
-/* menu left*/
+ }
 
-.block-left{
-    display: flex;
-    align-items: center;
-    gap: 45px;
-    
-ul{
-    gap: 45px;
-a{
-    color:rgba(128, 128, 128, 0.738);
-}
-}
+ .menu {
+     display: flex;
+     align-items: center;
+     list-style: none;
 
-/* menu right*/
+ }
 
-.block-right{
-    display: flex;
-    align-items: center;
-    gap: 45px;
-    
+ /* menu left*/
 
-ul{
-    gap: 45px;
-a, .click{ 
-    color:rgba(128, 128, 128, 0.738);
+ .block-left {
+     display: flex;
+     align-items: center;
+     gap: 45px;
 
-} 
-}
-    
-    
+     ul {
+         gap: 45px;
+
+         a {
+             color: rgba(128, 128, 128, 0.738);
+         }
+     }
+
+     /* menu right*/
+
+     .block-right {
+         display: flex;
+         align-items: center;
+         gap: 45px;
+
+
+         ul {
+             gap: 45px;
+
+             a {
+                 color: rgba(128, 128, 128, 0.738);
+             }
+
+         }
+
+         span {
+             color: white;
+             border-radius: 10px;
+         }
