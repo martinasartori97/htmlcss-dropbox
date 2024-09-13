@@ -1,173 +1,173 @@
  /*region comman*/
 
  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-/*region header*/
+ /*region header*/
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-
-
-
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    list-style: none;
-
-}
-
-/*menu left*/
-
-.block-left {
-    display: flex;
-    align-items: center;
-    gap: 45px;
+ header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
 
 
 
-    ul {
-        gap: 45px;
+ }
 
-        a {
-            color: rgba(128, 128, 128, 0.738);
-            text-decoration: none;
-        }
-    }
+ .menu {
+     display: flex;
+     align-items: center;
+     list-style: none;
 
+ }
 
-}
+ /*menu left*/
 
-/*menu right*/
-
-.block-right {
-
-    display: flex;
-    align-items: center;
-    gap: 45px;
-
-
-    ul {
-        gap: 45px;
-
-        a {
-            color: rgba(128, 128, 128, 0.738);
-            text-decoration: none;
-
-        }
-    }
-
-    span {
-        background-color: rgba(0, 128, 255, 0.711);
-        color: white;
-        border-radius: 150px;
-        padding: 10px;
-    }
-}
-
-/* end-header*/
-
-/*main*/
-section {
-    background-color: rgba(0, 157, 255, 0.441);
-}
-
-.container {
-    width: 60%;
-    margin: auto;
+ .block-left {
+     display: flex;
+     align-items: center;
+     gap: 45px;
 
 
 
-}
+     ul {
+         gap: 45px;
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 -1rem;
-    padding: 15px;
-
-}
-
-h1 {
-    font-size: 50px;
-
-}
-
-.col-4 {
-    width: calc((100% / 12) * 4);
-    margin: bottom 20px;
-
-    p {
-        margin-bottom: 20px;
-    }
+         a {
+             color: rgba(128, 128, 128, 0.738);
+             text-decoration: none;
+         }
+     }
 
 
+ }
+
+ /*menu right*/
+
+ .block-right {
+
+     display: flex;
+     align-items: center;
+     gap: 45px;
+
+
+     ul {
+         gap: 45px;
+
+         a {
+             color: rgba(128, 128, 128, 0.738);
+             text-decoration: none;
+
+         }
+     }
+
+     span {
+         background-color: rgba(0, 128, 255, 0.711);
+         color: white;
+         border-radius: 150px;
+         padding: 10px;
+     }
+ }
+
+ /* end-header*/
+
+ /*main*/
+ section {
+     background-color: rgba(0, 157, 255, 0.441);
+ }
+
+ .container {
+     width: 60%;
+     margin: auto;
 
 
 
-}
+ }
 
-.col-8 {
-    width: calc((100% / 12) * 8);
-}
+ .row {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0 -1rem;
+     padding: 15px;
 
-img {
-    max-width: 100%;
+ }
 
-}
+ h1 {
+     font-size: 50px;
 
-.click {
-    border-radius: 150px;
-    padding: 10px;
-    background-color: rgba(0, 128, 255, 0.711);
-    border: none;
-    margin-bottom: 20px;
-    ;
+ }
 
-}
+ .col-4 {
+     width: calc((100% / 12) * 4);
+     margin: bottom 20px;
 
-a {
-    color: white;
-    text-decoration: none;
-    margin-bottom: 20px;
+     p {
+         margin-bottom: 20px;
+     }
 
-}
 
-.decline {
-    margin-bottom: 20px;
-}
 
-.section-1 {
-    background-color: white;
-    max-width: 100%;
 
-}
 
-.container-1, .title {
-    width: 50%;
-    display: flex;
-    margin: auto;
-    white-space: nowrap;
-}
-.subscription{
-   color: black;
-   justify-content: space-around;
-}
+ }
 
-@media screen and (max-width: 1200px){
-    
-}
+ .col-8 {
+     width: calc((100% / 12) * 8);
+ }
 
-@media screen and (max-width: 600px){
-    .col-sm-12{
-        width: 100%;
-    }
-}
+ img {
+     max-width: 100%;
+
+ }
+
+ .click {
+     border-radius: 150px;
+     padding: 10px;
+     background-color: rgba(0, 128, 255, 0.711);
+     border: none;
+     margin-bottom: 20px;
+     ;
+
+ }
+
+ a {
+     color: white;
+     text-decoration: none;
+     margin-bottom: 20px;
+
+ }
+
+ .decline {
+     margin-bottom: 20px;
+ }
+
+ .section-1 {
+     background-color: white;
+     max-width: 100%;
+
+ }
+
+ .container-1,
+ .title {
+     width: 50%;
+     display: flex;
+     margin: auto;
+     white-space: nowrap;
+ }
+
+ .subscription {
+     color: black;
+     justify-content: space-around;
+ }
+
+ @media screen and (max-width: 1200px) {}
+
+ @media screen and (max-width: 600px) {
+     .col-sm-12 {
+         width: 100%;
+     }
+ }
