@@ -144,10 +144,21 @@
  .decline {
      margin-bottom: 20px;
  }
- .section-1{
-    background-color: white;
+
+ .section-1 {
+     background-color: white;
+     max-width: 100%;
+
  }
- .h1{
+
+ .container-1, .title {
+     width: 50%;
+     display: flex;
+     margin: auto;
+     white-space: nowrap;
+}
+.subscription{
     color: black;
-    
- }
+}
+
+ 
